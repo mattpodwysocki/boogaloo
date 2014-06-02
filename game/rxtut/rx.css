@@ -1,6 +1,8 @@
 @import "../../src/css/fonts/Helvetica/helvetica.css";
 
 *, *:before, *:after {
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -26,11 +28,15 @@ body {
     background-size: cover;
     background-position: 50% 50%;
     overflow: hidden;
+    -o-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
     -moz-transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
     transform-origin: 0 0;
     -webkit-filter: saturate(200%) grayscale(25%) sepia(10%);
     -moz-filter: saturate(200%) grayscale(25%) sepia(10%);
+    -ms-filter: saturate(200%) grayscale(25%) sepia(10%);
+    -o-filter: saturate(200%) grayscale(25%) sepia(10%);
     filter: saturate(200%) grayscale(25%) sepia(10%);
 }
 
